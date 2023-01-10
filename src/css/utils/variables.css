@@ -1,6 +1,6 @@
 :root {
 
-  /* Palette de Couleurs */
+  /* Palette de Couleurs & Polices de caractère */
   
     --Noir: rgba(0, 0, 0, 1);
     --Noir25: rgba(25, 25, 25);
@@ -10,4 +10,5 @@
     --Rouge: rgba(154, 79, 73, 1);
     --Crème: rgba(229, 213, 179, 1);
     --Blanc: rgba(255, 255, 255, 1);
+    --font-serif: "Times New Roman";
   }

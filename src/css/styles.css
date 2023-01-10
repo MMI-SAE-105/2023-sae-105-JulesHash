@@ -10,12 +10,12 @@
 @import "./utils/variables.css";
 
 /* Règles générales */
-@import "./base/main.css";
-@import "./css/base/media.css";
+@import "./base/menu.css";
+@import "./base/media.css";
 
 /* Layout */
-@import "./css/layout/header.css";
-@import "./css/layout/footer.css";
+@import "./layout/header.css";
+@import "./layout/footer.css";
 
 /* Composants */
-@import "./css/components/";
+@import "./components/";

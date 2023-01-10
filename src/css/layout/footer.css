@@ -1,0 +1,52 @@
+.Footer {
+    background: var(--Noir25);
+    border-top: var(--Blanc) 10px solid;
+}
+
+.FooterLogo {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    margin: auto;
+}
+
+.Footer a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    color: var(--Blanc);
+    text-decoration: none;
+}
+
+.MailTo {
+    margin: 50px;
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: var(--Blanc);
+    padding-bottom: 50px;
+}
+
+.Cartier-Logo-White {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    margin: auto;
+}
+
+.Links {
+    display: flex;
+    margin-inline: 120px;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}

@@ -1,0 +1,74 @@
+.GradientBack {
+    width: 375px;
+    height: 742px;
+    left: 0px;
+    top: 70px; 
+    background: conic-gradient(from 180.1deg at 50.13% 65.95%, #58349E -49.5deg, #58349E 49.87deg, #ECAC5D 109.87deg, #9A4F49 218.62deg, #58349E 310.5deg, #58349E 409.87deg);
+}
+.SF-Logo-Text {
+    display: flex;
+    margin: auto;
+    padding-top: 100px;
+}
+
+.IndexDate {
+    text-align: center;
+    font-family: 'Lobster';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: var(--Blanc);
+}
+
+.IndexLieu {
+    margin-top: 300px;
+}
+
+.Fondation-Cartier-Logo-Noir {
+    display: flex;
+    margin: auto;
+}
+
+.Adresse {
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    color: var(--Blanc);
+}
+
+.Oeuvres {
+    display: flex;
+    margin-top: 5px;
+    background: var(--Noir);
+}
+
+.Accueil-Oeuvres {
+    justify-content: right;
+}
+
+.TextOeuvres {
+    text-align: left;
+    color: var(--Blanc);
+}
+
+.Artistes {
+    margin-top: 5px;
+    background: var(--Mauve);
+    margin-bottom: 5px;
+}
+
+.infos-Tarifs {
+    margin-top: 5px;
+    background-image: url("/public/img/photos/accueil-img-infos-tarifs.webp");
+    margin-bottom: 5px;
+}
+
+.Mouvement {
+    margin-top: 5px;
+    background-image: url("/public/img/photos/accueil-img-exposition.webp");
+}
+

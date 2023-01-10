@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./src/css/styles.css">
     <link rel="stylesheet" href="./src/fonts/typography.css">
     <script defer src="https://unpkg.com/alpinejs"></script>
-    <title>Accueil - Spatium & Forma</title>
+    <title>Contact - Spatium & Forma</title>
     <header class="header">
         <div class="container">
           <div class="headerlogo Logo">
@@ -34,49 +34,19 @@
         </div>
     </header>
 </head>
-<body>
+<body class=" Body BodyContact">
 
-    <section class="GradientBack">
-        <img src="./public/img/icons/sf-logo-text.svg" alt="SF-Logo-Text" class="SF-Logo-Text">
-        <p class="IndexDate">du 13 avril au 23 juin 2021</p>
-        <div class="IndexButton">
-            <button class="Button EnSavoirPlus">en savoir plus</button>
-            <button class="Button Reservez">réservez votre billet</button>
-        </div>
-        <div class="IndexLieu">
-        <img src="./public/img/icons/fondation-cartier-black.svg" alt="Fondation-Cartier-Logo-Noir" class="Fondation-Cartier-Logo-Noir">
-        <p class="Adresse">261 Bd Raspail, 75014 Paris</p>
-        </div>
-    </section>
-
-    <article class="Oeuvres">
-        <div class="TextOeuvres">
-            <h1>Découvrez</h1>
-            <p>des œuvres d’exception</p>
-            <button class="Button IndexOeuvres">explorez les oeuvres</button>
-        </div>
-        <img src="./public/img/photos/accueil-img-oeuvre.webp" alt="Accueil-Oeuvres" class="Accueil-Oeuvres">
-    </article>
-    
-
-    <article class="Artistes">
-        <img src="./public/img/photos/accueil-img-artiste.webp" alt="Accueil-Artistes">
-        <h1>Inspirez vous</h1>
-        <p>du mouvement</p>
-        <button class="Button IndexArtistes">l'ensemble des artistes</button>
-    </article>
-
-    <article class="infos-Tarifs">
-        <h1>Venez</h1>
-        <p>à l'Exposition</p>
-        <button class="Button IndexInfos-Tarifs">découvrez nos tarifs et infos pratiques</button>
-    </article>
-
-    <article class="Mouvement">
-        <h1>Apprenez en plus</h1>
-        <p>sur l'art informel</p>
-        <button class="Button IndexMouvement">présentation du mouvement</button>
-    </article>
+    <form class="ContactForm">
+        <label for="nom">Nom</label><br>
+        <input type="text" id="nom" name="nom"><br>
+        <label for="prenom">Prénom</label><br>
+        <input type="text" id="prenom" name="prenom"><br>
+        <label for="email">Adresse Email</label><br>
+        <input type="email" id="email" name="email"><br>
+        <label for="message">Message</label><br>
+        <textarea id="message" name="message"></textarea><br>
+        <button type="submit">ENVOYER</button>
+      </form> 
 
     <footer class="Footer">
         <img src="./public/img/icons/sf-logo-large.svg" alt="Logo en bas du site" class="FooterLogo">

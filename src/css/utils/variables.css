@@ -3,6 +3,7 @@
   /* Palette de Couleurs & Polices de caractère */
   
     --Noir: rgba(0, 0, 0, 1);
+    --Noir15: rgba(15, 15, 15, 1);
     --Noir25: rgba(25, 25, 25);
     --Mauve: rgba(88, 52, 158, 1);
     --Violet: rgba(163, 134, 182, 1);

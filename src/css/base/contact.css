@@ -2,6 +2,19 @@
     background-color: var(--Jaune);
 }
 
+.Logo-Contact-Text {
+    display: flex;
+    margin: auto;
+}
+
+.TitleContact {
+    text-align: center;
+}
+
+.DescContact {
+    text-align: center;
+}
+
 .ContactForm {
     font-family: 'Rubik';
     font-style: normal;
@@ -10,12 +23,12 @@
     width: 90%;
     margin: 0 auto;
     margin-top: 30px;
-    margin-bottom: 80px;
+    margin-bottom: 150px;
     border: 1px solid var(--Blanc);
     background: var(--Noir15);
     padding: 16px;
     border-radius: 20px;
-    
+
     font-family: 'Times New Roman';
     font-style: normal;
     font-weight: 400;

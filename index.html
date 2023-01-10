@@ -11,7 +11,7 @@
     <header class="header">
         <div class="container">
           <div class="headerlogo Logo">
-            <a href="#"><img src="/public/img/icons/sf-logo-box.svg" alt="Logo du site"></a>
+            <a href="index.html"><img src="/public/img/icons/sf-logo-box.svg" alt="Logo du site"></a>
           </div>
           <div class="headermenu-overlay menu-overlay" x-data="{ open: false }">
             <button @click="open = !open" class="menu-overlaytoggle toggle">
@@ -21,12 +21,12 @@
             <div x-show="open" class="menu-overlaycontent overlay-content">
               <nav class="menu-overlaynav overlay-nav">
                 <ul class="menu-overlaylist overlay-list">
-                  <li class="menu-overlayitem overlay-item"><a href="#">L'Exposition</a></li>
-                  <li class="menu-overlayitem overlay-item"><a href="#">Artistes à découvrir</a></li>
-                  <li class="menu-overlayitem overlay-item"><a href="#">Œuvres exposées</a></li>
-                  <li class="menu-overlayitem overlay-item"><a href="#">Chronologie</a></li>
-                  <li class="menu-overlayitem overlay-item"><a href="#">Infos pratiques / Nos tarifs</a></li>
-                  <li class="menu-overlayitem overlay-item"><a href="#">Billetterie</a></li>
+                    <li class="menu-overlayitem overlay-item"><a href="exposition.html">L'Exposition</a></li>
+                    <li class="menu-overlayitem overlay-item"><a href="exposition.html">Artistes à découvrir</a></li>
+                    <li class="menu-overlayitem overlay-item"><a href="chronologie.html">Œuvres exposées</a></li>
+                    <li class="menu-overlayitem overlay-item"><a href="chronologie.html">Chronologie</a></li>
+                    <li class="menu-overlayitem overlay-item"><a href="infos-tarifs.html">Infos pratiques / Nos tarifs</a></li>
+                    <li class="menu-overlayitem overlay-item"><a href="#">Billetterie</a></li>
                 </ul>
               </nav>
             </div>
@@ -37,7 +37,7 @@
 <body>
 
     <section class="GradientBack">
-        <img src="./public/img/icons/sf-logo-text.svg" alt="SF-Logo-Text" class="SF-Logo-Text">
+        <img src="./public/img/icons/sf-logo-text.svg" alt="SF-Logo-Text" class="IndexSF-Logo-Text">
         <p class="IndexDate">du 13 avril au 23 juin 2021</p>
         <div class="IndexButton">
             <button class="Button EnSavoirPlus">en savoir plus</button>
@@ -61,9 +61,11 @@
 
     <article class="Artistes">
         <img src="./public/img/photos/accueil-img-artiste.webp" alt="Accueil-Artistes">
-        <h1>Inspirez vous</h1>
-        <p>du mouvement</p>
-        <button class="Button IndexArtistes">l'ensemble des artistes</button>
+        <div class="TextArtistes">
+            <h1>Inspirez vous</h1>
+            <p>du mouvement</p>
+            <button class="Button IndexArtistes">l'ensemble des artistes</button>
+        </div>
     </article>
 
     <article class="infos-Tarifs">
@@ -87,8 +89,13 @@
         <p><a href="billetterie.html">Billetterie</a></p>
         
         <div class="Links">
+            <a href="mailto:contact@spatium-forma.fr" class="MailTo">
             <img src="./public/img/icons/enveloppe.svg" alt="Enveloppe">
-            <img src="./public/img/icons/telephone.svg" alt="Telephone">
+            </a>
+
+            <a href="tel:01 42 18 56 50">
+                <img src="./public/img/icons/telephone.svg" alt="Telephone">
+            </a>
         </div>
     </footer>
 </body>

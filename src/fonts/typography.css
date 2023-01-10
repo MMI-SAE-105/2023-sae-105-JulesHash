@@ -1,2 +1,35 @@
 /* Lobster Regular 400 */
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+h1 {
+    font-family: 'Lobster';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    color: var(--Blanc);
+}
+
+h3 {
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    color: var(--Noir);
+}
+
+body {
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: var(--Noir); 
+}
+
+p {
+    margin-left: 20px;
+    margin-right: 20px;
+}

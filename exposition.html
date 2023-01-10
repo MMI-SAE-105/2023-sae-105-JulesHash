@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head style="background-color: #59359F;">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/styles.css">
+    <link rel="stylesheet" href="./src/fonts/typography.css">
+    <script defer src="https://unpkg.com/alpinejs"></script>
+    <title>Exposition - Spatium & Forma</title>
+    <header class="header">
+        <div class="container">
+          <div class="headerlogo Logo">
+            <a href="index.html"><img src="/public/img/icons/sf-logo-box.svg" alt="Logo du site"></a>
+          </div>
+          <div class="headermenu-overlay menu-overlay" x-data="{ open: false }">
+            <button @click="open = !open" class="menu-overlaytoggle toggle">
+                <img src="./public/img/icons/burger-lines.svg" alt="Burger">
+              <i class="fas fa-bars"></i>
+            </button>
+            <div x-show="open" class="menu-overlaycontent overlay-content">
+              <nav class="menu-overlaynav overlay-nav">
+                <ul class="menu-overlaylist overlay-list">
+                  <li class="menu-overlayitem overlay-item"><a href="exposition.html">L'Exposition</a></li>
+                  <li class="menu-overlayitem overlay-item"><a href="exposition.html">Artistes à découvrir</a></li>
+                  <li class="menu-overlayitem overlay-item"><a href="chronologie.html">Œuvres exposées</a></li>
+                  <li class="menu-overlayitem overlay-item"><a href="chronologie.html">Chronologie</a></li>
+                  <li class="menu-overlayitem overlay-item"><a href="infos-tarifs.html">Infos pratiques / Nos tarifs</a></li>
+                  <li class="menu-overlayitem overlay-item"><a href="#">Billetterie</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+    </header>
+</head>
+<body class="Body BodyExposition">
+
+    <img src="./public/img/icons/exposition-logo-text.svg" alt="Exposition-Logo-Text" class="Exposition-Logo-Text">
+
+    <img src="./public/img/photos/accueil-img-exposition.webp" alt="ImgExposition">
+
+    <p>
+    Du du 13 avril au 23 juin 2021, venez découvrir la nouvelle exposition à la Fondation Cartier au 261 Bd Raspail, 
+    dans le 14ème Arrondissement de Paris.
+    </p>
+
+    <img src="./public/img/icons/sf-logo-text.svg" alt="SF-Logo-Text" class="SF-Logo-Text">
+
+    <div class="TitleH2">
+        <h2>L'art informel, qu'est-ce que c'est ?</h2>
+    </div>
+
+    <p>
+        Spatium & Forma est une toute nouvelle exposition traitant de l’Art Informel. 
+        L'art informel est un mouvement artistique qui a émergé dans les années 1940 et 1950. 
+        Il se caractérise par l'utilisation de techniques spontanées et non conventionnelles, ainsi que par l'absence de forme et de composition préétablies. 
+        Les artistes de l'art informel cherchent à créer des œuvres qui reflètent leurs émotions et leur état d'esprit, plutôt que de suivre des règles esthétiques 
+        ou formelles précises.<br>
+    </p>
+
+    <p>
+        Voici quelques exemples d'artistes célèbres associés à l'art informel :<br>
+        Jean Dubuffet: connu pour ses peintures et sculptures de figures grotesques et de paysages abstraits, 
+        souvent réalisées à partir de matériaux inusuels tels que de la pâte à modeler ou de la boue.<br>
+        Parmi les peintres les plus influents, nous pouvons compter Franz Kline: un peintre américain qui a utilisé 
+        des lignes épaisses et des couleurs vives pour créer des compositions abstraites expressives. Il y a aussi Jackson Pollock, célèbre pour son utilisation de la technique 
+        de l'action painting, où il laissait tomber et étalait de la peinture sur la toile de manière spontanée et intuitive.<br>
+        Willem de Kooning était quant à lui un peintre néerlandais qui a utilisé des formes et des couleurs dynamiques pour créer des peintures abstraites expressives.<br>
+    </p>
+
+    <div class="TitleH2">
+        <h2>Les artistes à l'affiche</h2>
+    </div>
+
+    <button class="Button InfosOeuvres">voir la liste des oeuvres</button>
+
+    <footer class="Footer">
+        <img src="./public/img/icons/sf-logo-large.svg" alt="Logo en bas du site" class="FooterLogo">
+        <img src="./public/img/icons/fondation-cartier-white.svg" alt="Fondation-Cartier-Logo-Blanc" class="Cartier-Logo-White">
+        <p><a href="infos-tarifs.html">Infos Pratiques</a></p>
+        <p><a href="chronologie.html">Chronologie</a></p>
+        <p><a href="contact.html">Contactez-nous</a></p>
+        <p><a href="billetterie.html">Billetterie</a></p>
+        
+        <div class="Links">
+            <a href="mailto:contact@spatium-forma.fr" class="MailTo">
+            <img src="./public/img/icons/enveloppe.svg" alt="Enveloppe">
+            </a>
+
+            <a href="tel:01 42 18 56 50">
+                <img src="./public/img/icons/telephone.svg" alt="Telephone">
+            </a>
+        </div>
+    </footer>
+</body>
+</html>

@@ -11,7 +11,7 @@
     <header class="header">
         <div class="container">
           <div class="headerlogo Logo">
-            <a href="#"><img src="/public/img/icons/sf-logo-box.svg" alt="Logo du site"></a>
+            <a href="index.html"><img src="/public/img/icons/sf-logo-box.svg" alt="Logo du site"></a>
           </div>
           <div class="headermenu-overlay menu-overlay" x-data="{ open: false }">
             <button @click="open = !open" class="menu-overlaytoggle toggle">
@@ -21,12 +21,12 @@
             <div x-show="open" class="menu-overlaycontent overlay-content">
               <nav class="menu-overlaynav overlay-nav">
                 <ul class="menu-overlaylist overlay-list">
-                  <li class="menu-overlayitem overlay-item"><a href="#">L'Exposition</a></li>
-                  <li class="menu-overlayitem overlay-item"><a href="#">Artistes à découvrir</a></li>
-                  <li class="menu-overlayitem overlay-item"><a href="#">Œuvres exposées</a></li>
-                  <li class="menu-overlayitem overlay-item"><a href="#">Chronologie</a></li>
-                  <li class="menu-overlayitem overlay-item"><a href="#">Infos pratiques / Nos tarifs</a></li>
-                  <li class="menu-overlayitem overlay-item"><a href="#">Billetterie</a></li>
+                    <li class="menu-overlayitem overlay-item"><a href="exposition.html">L'Exposition</a></li>
+                    <li class="menu-overlayitem overlay-item"><a href="exposition.html">Artistes à découvrir</a></li>
+                    <li class="menu-overlayitem overlay-item"><a href="chronologie.html">Œuvres exposées</a></li>
+                    <li class="menu-overlayitem overlay-item"><a href="chronologie.html">Chronologie</a></li>
+                    <li class="menu-overlayitem overlay-item"><a href="infos-tarifs.html">Infos pratiques / Nos tarifs</a></li>
+                    <li class="menu-overlayitem overlay-item"><a href="#">Billetterie</a></li>
                 </ul>
               </nav>
             </div>
@@ -35,6 +35,11 @@
     </header>
 </head>
 <body class=" Body BodyContact">
+
+    <h1 class="TitleContact">Abonnez vous à notre Newsletter</h1>
+    <h3 class="DescContact">Ne ratez rien de l’exposition</h3>
+
+    <img src="./public/img/icons/contact-logo-text.svg" alt="Logo-Contact-Text" class="Logo-Contact-Text">
 
     <form class="ContactForm">
         <label for="nom">Nom</label><br>
@@ -57,8 +62,13 @@
         <p><a href="billetterie.html">Billetterie</a></p>
         
         <div class="Links">
+            <a href="mailto:contact@spatium-forma.fr" class="MailTo">
             <img src="./public/img/icons/enveloppe.svg" alt="Enveloppe">
-            <img src="./public/img/icons/telephone.svg" alt="Telephone">
+            </a>
+
+            <a href="tel:01 42 18 56 50">
+                <img src="./public/img/icons/telephone.svg" alt="Telephone">
+            </a>
         </div>
     </footer>
 </body>

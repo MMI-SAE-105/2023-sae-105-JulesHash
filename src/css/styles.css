@@ -21,4 +21,6 @@
 @import "./components/components.css";
 
 /* Règles générales des pages*/
+@import "./base/main.css";
 @import "./base/contact.css";
+@import "./base/exposition.css";

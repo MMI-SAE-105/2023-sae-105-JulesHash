@@ -1,8 +1,9 @@
 .Button {
+	display: flex;
+	margin: auto;
 	background-color:transparent;
 	border-radius:28px;
 	border:1px solid var(--Blanc);
-	display:inline-block;
 	cursor:pointer;
 	color: var(--Blanc);
 	text-decoration:none;
@@ -14,4 +15,31 @@
 .Button:active {
 	position:relative;
 	top:1px;
+}
+
+.InfosOeuvres {
+	margin-bottom: 30px;
+}
+
+.TitleH2 h2 {
+	margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: var(--Noir25);
+	font-family: 'Times New Roman';
+	font-style: italic;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 21px;
+	color: var(--Noir);
+}
+
+.TitleH2 h2:before {
+    background-color: var(--Noir);
+    border-radius: 0.25rem;
+    content: '';
+    display: block;
+    height: 0.5rem;
+    width: 42px;
+    margin-bottom: 1rem;
 }

@@ -1,0 +1,8 @@
+.BodyExposition {
+    background-color: var(--Jaune);
+}
+
+.Exposition-Logo-Text {
+    display: flex;
+    margin: auto;
+}

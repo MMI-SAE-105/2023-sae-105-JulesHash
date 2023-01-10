@@ -1,12 +1,35 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
+<head style="background-color: #59359F;">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Accueil - Spatium & Forma</title>
     <link rel="stylesheet" href="styles.css">
     <script defer src="https://unpkg.com/alpinejs"></script>
+
+    <title>Accueil - Spatium & Forma</title>
+        <div class="container">
+          <div class="Logo">
+            <a href="#"><img src="./public/img/icons/sf-logo-box.svg" alt="Logo du site"></a>
+          </div>
+          <div class="menu-overlay" x-data="{ open: false }">
+            <button @click="open = !open" class="menu-toggle">
+              <i class="fas fa-bars"></i>
+            </button>
+            <div x-show="open" class="overlay">
+              <nav>
+                <ul>
+                  <li><a href="#">L'Exposition</a></li>
+                  <li><a href="#">Artistes à découvrir</a></li>
+                  <li><a href="#">Œuvres exposées</a></li>
+                  <li><a href="#">Chronologie</a></li>
+                  <li><a href="#">Infos pratiques / Nos tarifs</a></li>
+                  <li><a href="#">Billetterie</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
 </head>
 <body>
     

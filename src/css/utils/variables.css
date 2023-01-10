@@ -1,0 +1,13 @@
+:root {
+
+  /* Palette de Couleurs */
+  
+    --Noir: rgba(0, 0, 0, 1);
+    --Noir25: rgba(25, 25, 25);
+    --Mauve: rgba(88, 52, 158, 1);
+    --Violet: rgba(163, 134, 182, 1);
+    --Jaune: rgba(236, 172, 93, 1);
+    --Rouge: rgba(154, 79, 73, 1);
+    --Crème: rgba(229, 213, 179, 1);
+    --Blanc: rgba(255, 255, 255, 1);
+  }

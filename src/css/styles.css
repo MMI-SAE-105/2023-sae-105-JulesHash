@@ -19,8 +19,10 @@
 
 /* Composants */
 @import "./components/components.css";
+@import "./components/caroussel.css";
 
 /* Règles générales des pages*/
 @import "./base/main.css";
 @import "./base/contact.css";
 @import "./base/exposition.css";
+@import "./base/chronologie.css";

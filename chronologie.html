@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head style="background-color: #59359F;">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/styles.css">
+    <link rel="stylesheet" href="./src/fonts/typography.css">
+    <script defer src="https://unpkg.com/alpinejs"></script>
+    <title>Chronologie - Spatium & Forma</title>
+    <header class="header">
+        <div class="container">
+          <div class="headerlogo Logo">
+            <a href="index.html"><img src="/public/img/icons/sf-logo-box.svg" alt="Logo du site"></a>
+          </div>
+          <div class="headermenu-overlay menu-overlay" x-data="{ open: false }">
+            <button @click="open = !open" class="menu-overlaytoggle toggle">
+                <img src="./public/img/icons/burger-lines.svg" alt="Burger">
+              <i class="fas fa-bars"></i>
+            </button>
+            <div x-show="open" class="menu-overlaycontent overlay-content">
+              <nav class="menu-overlaynav overlay-nav">
+                <ul class="menu-overlaylist overlay-list">
+                    <li class="menu-overlayitem overlay-item"><a href="exposition.html">L'Exposition</a></li>
+                    <li class="menu-overlayitem overlay-item"><a href="exposition.html">Artistes à découvrir</a></li>
+                    <li class="menu-overlayitem overlay-item"><a href="chronologie.html">Œuvres exposées</a></li>
+                    <li class="menu-overlayitem overlay-item"><a href="chronologie.html">Chronologie</a></li>
+                    <li class="menu-overlayitem overlay-item"><a href="infos-tarifs.html">Infos pratiques / Nos tarifs</a></li>
+                    <li class="menu-overlayitem overlay-item"><a href="#">Billetterie</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+    </header>
+</head>
+<body class=" Body BodyChronologie">
+
+    <img src="./public/img/icons/chronologie-logo-text.svg" alt="chronologie-Logo-Text" class="Chronologie-Logo-Text">
+
+    <div class="Carrousel" x-data="{}">
+            
+
+        <div class="Carrousel-Parent-Cards" x-ref="Parent">  
+                    <div id="ecran-1" class="Carrousel-Card">
+                        <figure>
+                            <img class="card_img" src="./public/img/oeuvres/1.webp" alt="image ecran 1">
+                            <figcaption class="card_date" >1926</figcaption>
+                            <figcaption class="card_title" >Composition with a blue square</figcaption>
+                        </figure>
+                    </div>
+
+                    <div id="ecran-2" class="Carrousel-Card">
+                        <figure>
+                            <img class="card_img" src="./public/img/oeuvres/2.webp" alt="image ecran 2">
+                            <figcaption class="card_date" >1949</figcaption>
+                            <figcaption class="card_title" >Obreron</figcaption>
+                        </figure>
+                    </div>
+
+                    <div id="ecran-3" class="Carrousel-Card">
+                        <figure>
+                            <img class="card_img" src="./public/img/oeuvres/3.webp" alt="image ecran 3">
+                            <figcaption class="card_date" >1955</figcaption>
+                            <figcaption class="card_title" >Composition II</figcaption>
+                        </figure>
+                    </div>
+
+                    <div id="ecran-4" class="Carrousel-Card">
+                        <figure>
+                            <img class="card_img" src="./public/img/oeuvres/4.webp" alt="image ecran 4">
+                            <figcaption class="card_date" >1958</figcaption>
+                            <figcaption class="card_title" >Komposition Chartem</figcaption>
+                        </figure>
+                    </div>
+
+                    <div id="ecran-5" class="Carrousel-Card">
+                        <figure>
+                            <img class="card_img" src="./public/img/oeuvres/5.webp" alt="image ecran 5">
+                            <figcaption class="card_date" >1963</figcaption>
+                            <figcaption class="card_title" >Furioso</figcaption>
+                        </figure>
+                    </div>
+
+                    <div id="ecran-6" class="Carrousel-Card">
+                        <figure>
+                            <img class="card_img" src="./public/img/oeuvres/6.webp" alt="image ecran 6">
+                            <figcaption class="card_date" >1967</figcaption>
+                            <figcaption class="card_title" >Cela qui gronde</figcaption>
+                        </figure>
+                    </div>
+
+                    <div id="ecran-7" class="Carrousel-Card">
+                        <figure>
+                            <img class="card_img" src="./public/img/oeuvres/7.webp" alt="image ecran 7">
+                            <figcaption class="card_date" >1970</figcaption>
+                            <figcaption class="card_title" >II Tunnel</figcaption>
+                        </figure>
+                    </div>
+
+                    <div id="ecran-8" class="Carrousel-Card">
+                        <figure>
+                            <img class="card_img" src="./public/img/oeuvres/8.webp" alt="image ecran 8">
+                            <figcaption class="card_date" >1972</figcaption>
+                            <figcaption class="card_title" >Arcipelaghi</figcaption>
+                        </figure>
+                    </div>
+
+                </div>
+                
+                <div class="Left-Right-Button">
+                    <button @click="$refs.parent.scrollLeft -= $refs.parent.clientWidth/2" class="Carrousel-Button Carrousel-Button-Avant" aria-label="Slide Précedent">
+                    <img src="./public/img/icons/left-button.svg" alt="fleche gauche">
+                    </button>
+            
+                    <button @click="$refs.parent.scrollLeft += $refs.parent.clientWidth/2" class="Carrousel-Button Carrousel-Button-Apres" aria-label="Slide Suivant"> 
+                    <img src="./public/img/icons/right-button.svg" alt="fleche droite">
+                    </button>
+                </div>
+            </div>
+    </div>
+
+    <footer class="Footer">
+        <img src="./public/img/icons/sf-logo-large.svg" alt="Logo en bas du site" class="FooterLogo">
+        <img src="./public/img/icons/fondation-cartier-white.svg" alt="Fondation-Cartier-Logo-Blanc" class="Cartier-Logo-White">
+        <p><a href="infos-tarifs.html">Infos Pratiques</a></p>
+        <p><a href="chronologie.html">Chronologie</a></p>
+        <p><a href="contact.html">Contactez-nous</a></p>
+        <p><a href="billetterie.html">Billetterie</a></p>
+        
+        <div class="Links">
+            <a href="mailto:contact@spatium-forma.fr" class="MailTo">
+            <img src="./public/img/icons/enveloppe.svg" alt="Enveloppe">
+            </a>
+
+            <a href="tel:01 42 18 56 50">
+                <img src="./public/img/icons/telephone.svg" alt="Telephone">
+            </a>
+        </div>
+    </footer>
+</body>
+</html>

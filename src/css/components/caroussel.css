@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;/* change le box model */
+    }
+    img {
+      height: auto;
+    }
+
+.Carrousel-Parent-Cards {
+      display: flex;
+      width: 100%;
+      overflow-x: scroll;
+      scroll-behavior: smooth;
+      scroll-snap-type: x mandatory;
+    
+    }
+.Carrousel-Card {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-inline: 5%;
+    background-color: var(--menu-color);
+    border-radius: 5%;
+    border: 2px solid var(--tonic-color);
+    flex: none;
+    scroll-snap-align:center;
+      /* largeur du parent pour chaque enfant */
+      /* permet de garder toute la largeur du parent */
+    }
+.Carrousel-Card figure {
+      /* enlève les marges par défaut */
+      margin: 0;
+    }
+
+    .Carrousel {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+      }
+      
+      .Carrousel-Button {
+        position: absolute;
+        top: 50%; /* centre verticalement */
+        transform: translateY(-50%); /* methode du point mort */
+        width: 2rem;
+        height: 2rem;
+        background: rgba(0,0,0,0.5);
+        border-radius: 50%;
+        border: none;
+        display: grid;
+        place-content: center;
+        color: #fff;
+      }
+      
+      .Left-Right-Button{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+      }
+
+      .Carrousel-Button-Avant {
+        margin-top: 2%;
+        position: relative;
+        border: none;
+        background: none;
+        cursor: pointer;
+        width: 70px;
+        height: auto;
+      }
+      
+      .Carrousel-Button-Apres {
+        margin-top: 2%;
+        position: relative;
+        border: none;
+        background: none;
+        cursor: pointer;
+        width: 70px;
+        height: auto;
+      }
+
+.card_date{
+    text-align: center;
+	font-family: 'Times New Roman';
+	font-style: italic;
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 55px;
+	color: var(--Jaune);
+}
+
+.card_title{
+	font-family: 'Lobster';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 32px;
+	line-height: 40px;
+	color: var(--Blanc);
+}
+
+.card_img{
+    margin-inline: 10%;
+    width: 100%;
+    border-radius: 10px;
+    border: 8px solid var(--Jaune);
+    margin-bottom: 0;
+	text-align: center;
+}
+

@@ -1,0 +1,24 @@
+.BodyInfosTarifs {
+    background-color: var(--Jaune);
+}
+
+.Photo-InfosTarifs {
+    width: 375px;
+    height: 251px;
+}
+
+.Infos {
+    background-color: var(--Blanc);
+}
+
+.Tarifs {
+    background-color: var(--Noir);
+}
+
+.Desc2 {
+    color: var(--Noir);
+}
+
+.Acceder {
+    margin-left: 20px;
+}

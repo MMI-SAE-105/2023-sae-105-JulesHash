@@ -1,0 +1,12 @@
+.Error404 {
+    display: block;
+    margin: 0 auto;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    padding-top: 200px;
+}
+
+.Background404 {
+    background: conic-gradient(from 180.1deg at 50.13% 65.95%, #58349E -49.5deg, #58349E 49.87deg, #ECAC5D 109.87deg, #9A4F49 218.62deg, #58349E 310.5deg, #58349E 409.87deg);
+}

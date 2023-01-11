@@ -2,7 +2,7 @@
     background-color: var(--Violet);
 }
 
-.Presentation {
+.ArtistePresentation {
     background-color: var(--Rouge);
 }
 
@@ -18,7 +18,7 @@
     margin-top: 50px;
 }
 
-.Description {
+.ArtisteDescription {
     padding-top: 20px;
     padding-bottom: 5px;
     margin-bottom: 10px;
@@ -31,7 +31,9 @@ p {
 }
 
 .ArtisteOeuvres {
-    background-color: var(Violet);
+    padding-top: 20px;
+    background-color: var(--Violet);
+    padding-bottom: 20px;
 }
 
 .OeuvreArtiste1 {

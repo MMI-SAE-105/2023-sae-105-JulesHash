@@ -1,0 +1,41 @@
+.BodyOeuvre {
+    background-color: var(--Rouge);
+}
+
+.Presentation {
+    background-color: var(--Rouge);
+}
+
+.ImgOeuvre {
+    margin-top: 15px;
+    width: 375px;
+    height: 224px;
+}
+
+.NameOeuvre {
+    display: flex;
+    margin: auto;
+}
+
+.OeuvrePeintre {
+    display: flex;
+    margin: auto;
+    font-family: 'Times New Roman';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+}
+
+.OeuvreDate {
+    margin-bottom: 20px;
+}
+
+.OeuvreDescription {
+    padding-top: 20px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    background-color: var(--Noir);
+}

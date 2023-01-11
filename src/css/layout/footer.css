@@ -44,9 +44,6 @@
 }
 
 .Links {
-    display: flex;
-    margin-inline: 120px;
     justify-content: space-between;
-    margin-top: 50px;
-    padding-bottom: 50px;
+    margin-inline: 1px;
 }

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head style="background-color: #59359F;">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/styles.css">
+    <link rel="stylesheet" href="./src/fonts/typography.css">
+    <script defer src="https://unpkg.com/alpinejs"></script>
+    <title>Carl Buchheister - Spatium & Forma</title>
+    <header class="header">
+        <div class="container">
+          <div class="headerlogo Logo">
+            <a href="index.html"><img src="/public/img/icons/sf-logo-box.svg" alt="Logo du site"></a>
+          </div>
+          <div class="headermenu-overlay menu-overlay" x-data="{ open: false }">
+            <button @click="open = !open" class="menu-overlaytoggle toggle">
+                <img src="./public/img/icons/burger-lines.svg" alt="Burger">
+              <i class="fas fa-bars"></i>
+            </button>
+            <div x-show="open" class="menu-overlaycontent overlay-content">
+              <nav class="menu-overlaynav overlay-nav">
+                <ul class="menu-overlaylist overlay-list">
+                    <li class="menu-overlayitem overlay-item"><a href="exposition.html">L'Exposition</a></li>
+                    <li class="menu-overlayitem overlay-item"><a href="exposition.html">Artistes à découvrir</a></li>
+                    <li class="menu-overlayitem overlay-item"><a href="chronologie.html">Œuvres exposées</a></li>
+                    <li class="menu-overlayitem overlay-item"><a href="chronologie.html">Chronologie</a></li>
+                    <li class="menu-overlayitem overlay-item"><a href="infos-tarifs.html">Infos pratiques / Nos tarifs</a></li>
+                    <li class="menu-overlayitem overlay-item"><a href="#">Billetterie</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+    </header>
+</head>
+<body class=" Body BodyArtiste">
+  
+    <div class="ArtistePresentation">
+      <img src="./public/img/photos/artistes/huguette-arthur-bertrand-photo.webp" alt="ImgArtiste" class="ImgArtiste">
+      <img src="./public/img/icons/huguette-arthur-bertrand-text.svg" alt="NameArtiste" class="NameArtiste">
+      <h1>1920 - 2005</h1>
+    </div>
+
+  <div class="ArtisteDescription">
+      <div class="TitleH3-White">
+        <h3>Qui est-elle ?</h3>
+      </div>
+
+      <p>
+        Huguette Arthur Bertrand, née en 1922 à Écouen et morte en 2005 à Paris, est un peintre non figuratif français de l'après-guerre, lié à l’aventure de l’abstraction lyrique.
+        Rare femme peintre de l’abstraction lyrique d’après-guerre, Huguette Arthur Bertrand participe activement à la scène artistique parisienne, côtoyant Pierre Soulages et Hans Hartung, Zao Wou-Ki et Chu Teh-Chun, entre autres.
+        Huguette Arthur Bertrand s’est illustrée très tôt parmi les premiers représentants de l’art abstrait français d’après-guerre, désignés sous l’appellation de la jeune, puis de la nouvelle école de Paris.
+      </p>
+      </div>
+  </div>
+
+    <div class="ArtisteOeuvres">
+      <div class="TitleH3-Black">
+        <h3>Parmi ses oeuvres...</h3>
+      </div>
+
+        <a href="composition-ii.html"><img src="./public/img/photos/oeuvres/3.webp" alt="OeuvreArtiste1" class="OeuvreArtiste1"></a>
+        <p class="DescriptionOeuvre"> Composition II (1955)<br>
+            Genre : Abstrait
+        </p>
+
+        <a href="cela-qui-gronde.html"><img src="./public/img/photos/oeuvres/6.webp" alt="OeuvreArtiste2" class="OeuvreArtiste2"></a>
+        <p class="DescriptionOeuvre"> Cela qui gronde (1967)<br>
+            Genre : Abstrait
+        </p>
+
+        <a href="#" class="arrow-top"></a>
+    </div>
+
+    <footer class="Footer">
+        <img src="./public/img/icons/sf-logo-large.svg" alt="Logo en bas du site" class="FooterLogo">
+        <img src="./public/img/icons/fondation-cartier-white.svg" alt="Fondation-Cartier-Logo-Blanc" class="Cartier-Logo-White">
+        <p><a href="infos-tarifs.html">Infos Pratiques</a></p>
+        <p><a href="chronologie.html">Chronologie</a></p>
+        <p><a href="contact.html">Contactez-nous</a></p>
+        <p><a href="billetterie.html">Billetterie</a></p>
+        
+        <div class="Links">
+            <a href="mailto:contact@spatium-forma.fr" class="MailTo">
+            <img src="./public/img/icons/enveloppe.svg" alt="Enveloppe">
+            </a>
+
+            <a href="tel:01 42 18 56 50">
+                <img src="./public/img/icons/telephone.svg" alt="Telephone">
+            </a>
+        </div>
+    </footer>
+</body>
+</html>

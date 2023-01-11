@@ -2,6 +2,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
 h1 {
+    font-family: 'Times New Roman';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 55px;
+    text-align: center;
+    color: var(--Jaune);
+}
+
+h2 {
     font-family: 'Lobster';
     font-style: normal;
     font-weight: 400;
@@ -12,24 +22,27 @@ h1 {
 
 h3 {
     font-family: 'Times New Roman';
-    font-style: normal;
+    font-style: italic;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 25px;
-    text-align: center;
-    color: var(--Noir);
+    font-size: 1.125rem;
+    line-height: 21px;
 }
 
 body {
     font-family: 'Times New Roman';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 18px;
+    font-size: 1.6rem; /* = à 16 pixels */
+    line-height: 1.6;
     color: var(--Noir); 
 }
 
 p {
     margin-left: 20px;
     margin-right: 20px;
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.6rem; /* = à 16 pixels */
+    line-height: 1.6;
 }

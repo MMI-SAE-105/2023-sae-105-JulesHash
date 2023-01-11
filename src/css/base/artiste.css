@@ -1,0 +1,54 @@
+.BodyArtiste {
+    background-color: var(--Violet);
+}
+
+.Presentation {
+    background-color: var(--Rouge);
+}
+
+.ImgArtiste {
+    width : 375px;
+    height : 224px;
+
+}
+
+.NameArtiste {
+    display: flex;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.Description {
+    padding-top: 20px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    background-color: var(--Noir);
+}
+
+p {
+    color: var(--Blanc);
+    text-align: justify;
+}
+
+.ArtisteOeuvres {
+    background-color: var(Violet);
+}
+
+.OeuvreArtiste1 {
+    width: 235px;
+    height: 331px;
+    display: flex;
+    margin: auto;
+}
+
+.OeuvreArtiste2 {
+    width: 235px;
+    height: 331px;
+    display: flex;
+    margin: auto;
+}
+
+.DescriptionOeuvre {
+    color: var(--Noir);
+    text-align: center;
+}

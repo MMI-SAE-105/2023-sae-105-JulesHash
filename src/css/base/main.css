@@ -1,8 +1,5 @@
 .GradientBack {
-    width: 375px;
     height: 742px;
-    left: 0px;
-    top: 70px; 
     background: conic-gradient(from 180.1deg at 50.13% 65.95%, #58349E -49.5deg, #58349E 49.87deg, #ECAC5D 109.87deg, #9A4F49 218.62deg, #58349E 310.5deg, #58349E 409.87deg);
 }
 
